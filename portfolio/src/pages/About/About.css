@@ -1,0 +1,112 @@
+ .aboutme{
+    
+     background-color: #f9f9f9;
+    padding: 80px 0px;
+    margin: 0px;
+}
+.aboutme h6{
+     color: #B1B493;
+     text-align: center;
+     margin-top: 0px;
+}
+ .aboutme .row {
+    padding-top: 0px;
+    width: 100%;
+    /* background-color: #efd511; */
+}
+ .aboutme .row .image-col {
+   
+    display: flex;
+    justify-content: center;
+}
+ .aboutme .row .image-col img{
+    width: 80%;
+}
+ .aboutme .row .about-col{
+    /* background-color: #f0b0b0; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    padding: 10px;
+}
+ .aboutme .row .about-col .headding{
+    padding-top: 0px;
+    padding-right: 300px;
+    background-color: #f9f9f9;
+}
+ .aboutme .row .about-col .headding h6{
+     color: #B1B493;
+     margin-bottom: 60px;
+}
+
+/* Extra large screens (1200px and above) */
+@media (min-width: 1200px) {
+
+}
+
+/* Large screens (desktops, 992px and above) */
+@media (min-width: 992px) and (max-width: 1199px) {
+ .aboutme .row .about-col .headding{
+
+    padding-right: 0px;
+   
+}
+ .aboutme .row .about-col .headding p{
+  font-size: 16px;
+}
+ .aboutme .row .about-col .headding h1{
+  font-size: 24px;
+}
+}
+
+/* Medium screens (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+ .aboutme .row .image-col img{
+    width: 100%;
+}
+ .aboutme .row .about-col .headding{
+    padding-right: 0px;
+}
+ .aboutme .row .about-col .headding p{
+  font-size: 14px;
+}
+ .aboutme .row .about-col .headding h1{
+  font-size: 20px;
+}
+}
+
+/* Small screens (landscape phones, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+ .aboutme .row .image-col img{
+    width: 100%;
+}
+
+ .aboutme .row .about-col .headding{
+    padding-right: 0px;
+}
+ .aboutme .row .about-col .headding p{
+  font-size: 12px;
+}
+ .aboutme .row .about-col .headding h1{
+  font-size: 18px;
+}
+}
+
+/* Extra small screens (mobile, up to 575px) */
+@media (max-width: 575px) {
+ .aboutme .row .about-col .headding{
+    padding:0px 20px;  
+    text-align: center;
+}
+ .aboutme .row .image-col img{
+    width: 70%;
+}
+ .aboutme .row .about-col .headding p{
+  font-size: 12px;
+}
+ .aboutme .row .about-col .headding h1{
+  font-size: 18px;
+}
+}

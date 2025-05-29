@@ -1,0 +1,94 @@
+.works{
+    background-color:#ffffff ;
+     text-align: center;
+    padding-bottom: 30px;
+        padding-top: 30px;
+}
+.works .headding h6{
+    color: #B1B493;
+    margin-bottom: 20px;
+}
+.works .headding h1{
+   
+    margin-bottom: 20px;
+}
+.works .headding p{
+   
+    margin-bottom: 10px;
+}
+.works .skillcards {
+
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.works .skillcards  .card{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    border: 0px;
+border-radius: 0px;
+}
+.works .skillcards .card .image img{
+    width: 100%;
+    object-fit: cover;
+}
+.works .skillcards .card .titles {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.works .skillcards .card .titles h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* Extra large screens (1200px and above) */
+@media (min-width: 1200px) {
+
+}
+
+/* Large screens (desktops, 992px and above) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Medium screens (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+.works .skillcards  .card{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    border: 0px;
+border-radius: 0px;
+}
+.works .skillcards .card .image img{
+    width: 100%;
+    object-fit: cover;
+}
+.works .skillcards .card .titles {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.works .skillcards .card .titles h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+}
+
+/* Small screens (landscape phones, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Extra small screens (mobile, up to 575px) */
+@media (max-width: 575px) {
+
+}

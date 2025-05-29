@@ -1,0 +1,196 @@
+ .myskills{
+    padding-top: 30px;
+  
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.myskills .headding h6{
+    color: #B1B493;
+    margin-bottom: 20px;
+}
+.myskills .headding h1{
+   
+    margin-bottom: 20px;
+}
+.myskills .headding p{
+   
+    margin-bottom: 30px;
+}
+ .myskills .container{
+   
+  display: flex;
+      gap: 40px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 20px;
+   
+      
+}
+ .myskills .container .cards{
+     background: white;
+     border-radius: 6px;
+     padding: 5px;
+     width: 200px;
+     text-align: center;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+     .myskills .container .cards:hover{
+    background: rgb(243, 244, 241);
+    transition: 0.3s;
+
+}
+ .myskills .container .cards h2{
+    font-size: 20px;
+    color: #000000;
+}
+ .myskills .container .cards img{
+    margin: 10px;
+    width: 80px;
+    color: #B1B493;
+}
+
+/* Extra large screens (1200px and above) */
+@media (min-width: 1200px) {
+
+}
+
+/* Large screens (desktops, 992px and above) */
+@media (min-width: 992px) and (max-width: 1199px) {
+.myskills .container .cards{
+  
+     padding: 10px;
+     width: 190px;
+
+    }
+     .myskills .container .cards h2{
+    font-size: 18px;
+  
+}
+.myskills .container .cards img{
+    margin: 8px;
+    width: 70px;
+
+}
+.myskills .headding p{
+   
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.myskills .headding h1{
+   
+    margin-bottom: 10px;
+    font-size: 29px;
+}
+.myskills .headding h6{
+   
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+}
+
+/* Medium screens (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+.myskills .container .cards{
+  
+     padding: 10px;
+     width: 190px;
+
+    }
+     .myskills .container .cards h2{
+    font-size: 18px;
+  
+}
+.myskills .container .cards img{
+    margin: 8px;
+    width: 70px;
+
+}
+.myskills .headding p{
+   
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.myskills .headding h1{
+   
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.myskills .headding h6{
+   
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+}
+
+/* Small screens (landscape phones, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+.myskills .container .cards{
+  
+     padding: 10px;
+     width: 190px;
+
+    }
+     .myskills .container .cards h2{
+    font-size: 18px;
+  
+}
+.myskills .container .cards img{
+    margin: 8px;
+    width: 70px;
+
+}
+.myskills .headding p{
+   
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.myskills .headding h1{
+   
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.myskills .headding h6{
+   
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+ 
+}
+
+/* Extra small screens (mobile, up to 575px) */
+@media (max-width: 575px) {
+ .myskills .container .cards{
+  
+     padding: 3px;
+     width: 120px;
+
+    }
+     .myskills .container .cards h2{
+    font-size: 15px;
+  
+}
+.myskills .container .cards img{
+    margin: 8px;
+    width: 40px;
+    color: #B1B493;
+}
+.myskills .headding p{
+   
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.myskills .headding h1{
+   
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.myskills .headding h6{
+   
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+}
