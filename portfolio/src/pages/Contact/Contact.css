@@ -9,6 +9,10 @@
     width: 100%;
 padding-top: 30px;
 }
+.contactme .row .col-lg-6{
+    display: flex;
+    justify-content: center;
+}
 .contactme .row .col-lg-6 .contactme-list{
     padding: 30px;
   

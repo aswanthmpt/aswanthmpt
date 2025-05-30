@@ -11,16 +11,16 @@ const Contact = () => {
         <h1>Contact Me</h1>
 
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6 col-sm-6">
           <div className="contactme-list">
             <ul>
-              <li> <img src={nv} alt="" />Nadhapuram road,vadakara,Calicut</li>
+              <li> <img src={nv} alt="" />Calicut</li>
               <li><img src={ph} alt="" />9048642860</li>
               <li><img src={ml} alt="" />aswanthmpt@gmail.com</li>
             </ul>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6 col-sm-6">
           <div className="contactme-form">
             <form action="">
               <input type="text" placeholder='name' />
